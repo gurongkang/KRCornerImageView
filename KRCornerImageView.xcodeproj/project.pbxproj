@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5484CBB31FD3F1980095FF25 /* UIImage+KR.m in Sources */ = {isa = PBXBuildFile; fileRef = 5484CBB21FD3F1980095FF25 /* UIImage+KR.m */; };
 		54C35F6B1FD3D55A00CFA362 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C35F6A1FD3D55A00CFA362 /* AppDelegate.m */; };
 		54C35F6E1FD3D55A00CFA362 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C35F6D1FD3D55A00CFA362 /* ViewController.m */; };
 		54C35F711FD3D55A00CFA362 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C35F6F1FD3D55A00CFA362 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		54C35F791FD3D55A00CFA362 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C35F781FD3D55A00CFA362 /* main.m */; };
 		54C35F831FD3D55A00CFA362 /* KRCornerImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C35F821FD3D55A00CFA362 /* KRCornerImageViewTests.m */; };
 		54C35F8E1FD3D55A00CFA362 /* KRCornerImageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C35F8D1FD3D55A00CFA362 /* KRCornerImageViewUITests.m */; };
+		54C35FA21FD3D9CB00CFA362 /* UIImageView+KRCornerImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C35FA11FD3D9CB00CFA362 /* UIImageView+KRCornerImageView.m */; };
+		90D83AB21B41987DE1F978FD /* libPods-KRCornerImageView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BCB33CCE306A838FEA4389F /* libPods-KRCornerImageView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5484CBB11FD3F1980095FF25 /* UIImage+KR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+KR.h"; sourceTree = "<group>"; };
+		5484CBB21FD3F1980095FF25 /* UIImage+KR.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KR.m"; sourceTree = "<group>"; };
 		54C35F661FD3D55900CFA362 /* KRCornerImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRCornerImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C35F691FD3D55A00CFA362 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		54C35F6A1FD3D55A00CFA362 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +56,11 @@
 		54C35F891FD3D55A00CFA362 /* KRCornerImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRCornerImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C35F8D1FD3D55A00CFA362 /* KRCornerImageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRCornerImageViewUITests.m; sourceTree = "<group>"; };
 		54C35F8F1FD3D55A00CFA362 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C35FA01FD3D9CB00CFA362 /* UIImageView+KRCornerImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+KRCornerImageView.h"; sourceTree = "<group>"; };
+		54C35FA11FD3D9CB00CFA362 /* UIImageView+KRCornerImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+KRCornerImageView.m"; sourceTree = "<group>"; };
+		564796F8089D7595B0609C33 /* Pods-KRCornerImageView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRCornerImageView.release.xcconfig"; path = "Pods/Target Support Files/Pods-KRCornerImageView/Pods-KRCornerImageView.release.xcconfig"; sourceTree = "<group>"; };
+		7BCB33CCE306A838FEA4389F /* libPods-KRCornerImageView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KRCornerImageView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25D87FE5AB85B91AFE0FE09 /* Pods-KRCornerImageView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRCornerImageView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KRCornerImageView/Pods-KRCornerImageView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90D83AB21B41987DE1F978FD /* libPods-KRCornerImageView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A0DA9BFD92BA1AAD36E6218 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B25D87FE5AB85B91AFE0FE09 /* Pods-KRCornerImageView.debug.xcconfig */,
+				564796F8089D7595B0609C33 /* Pods-KRCornerImageView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2D8BBE4AA4CB476BDD5890D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BCB33CCE306A838FEA4389F /* libPods-KRCornerImageView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		54C35F5D1FD3D55900CFA362 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				54C35F811FD3D55A00CFA362 /* KRCornerImageViewTests */,
 				54C35F8C1FD3D55A00CFA362 /* KRCornerImageViewUITests */,
 				54C35F671FD3D55900CFA362 /* Products */,
+				0A0DA9BFD92BA1AAD36E6218 /* Pods */,
+				2D8BBE4AA4CB476BDD5890D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +131,7 @@
 		54C35F681FD3D55900CFA362 /* KRCornerImageView */ = {
 			isa = PBXGroup;
 			children = (
+				54C35F9F1FD3D9B000CFA362 /* CornerImageView */,
 				54C35F691FD3D55A00CFA362 /* AppDelegate.h */,
 				54C35F6A1FD3D55A00CFA362 /* AppDelegate.m */,
 				54C35F6C1FD3D55A00CFA362 /* ViewController.h */,
@@ -132,6 +163,17 @@
 			path = KRCornerImageViewUITests;
 			sourceTree = "<group>";
 		};
+		54C35F9F1FD3D9B000CFA362 /* CornerImageView */ = {
+			isa = PBXGroup;
+			children = (
+				54C35FA01FD3D9CB00CFA362 /* UIImageView+KRCornerImageView.h */,
+				54C35FA11FD3D9CB00CFA362 /* UIImageView+KRCornerImageView.m */,
+				5484CBB11FD3F1980095FF25 /* UIImage+KR.h */,
+				5484CBB21FD3F1980095FF25 /* UIImage+KR.m */,
+			);
+			path = CornerImageView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54C35F921FD3D55A00CFA362 /* Build configuration list for PBXNativeTarget "KRCornerImageView" */;
 			buildPhases = (
+				4CEE92373B97CE559F7ED40F /* [CP] Check Pods Manifest.lock */,
 				54C35F621FD3D55900CFA362 /* Sources */,
 				54C35F631FD3D55900CFA362 /* Frameworks */,
 				54C35F641FD3D55900CFA362 /* Resources */,
+				7920DC676C677CBA306BD47C /* [CP] Embed Pods Frameworks */,
+				F63370F256564DC32ECFAFBE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,12 +305,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4CEE92373B97CE559F7ED40F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7920DC676C677CBA306BD47C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KRCornerImageView/Pods-KRCornerImageView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F63370F256564DC32ECFAFBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KRCornerImageView/Pods-KRCornerImageView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		54C35F621FD3D55900CFA362 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				54C35F6E1FD3D55A00CFA362 /* ViewController.m in Sources */,
+				54C35FA21FD3D9CB00CFA362 /* UIImageView+KRCornerImageView.m in Sources */,
+				5484CBB31FD3F1980095FF25 /* UIImage+KR.m in Sources */,
 				54C35F791FD3D55A00CFA362 /* main.m in Sources */,
 				54C35F6B1FD3D55A00CFA362 /* AppDelegate.m in Sources */,
 			);
@@ -428,6 +523,7 @@
 		};
 		54C35F931FD3D55A00CFA362 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B25D87FE5AB85B91AFE0FE09 /* Pods-KRCornerImageView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +537,7 @@
 		};
 		54C35F941FD3D55A00CFA362 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 564796F8089D7595B0609C33 /* Pods-KRCornerImageView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
