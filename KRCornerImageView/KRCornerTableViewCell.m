@@ -24,7 +24,12 @@
 - (void)setImageUrl:(NSString *)imageUrl {
     _imageUrl = imageUrl;
   
-    [self.cornerImageView kr_setImageUrl:[NSURL URLWithString:imageUrl] placeholder:nil size:CGSizeMake(60, 60) cornerRadius:30 borderWidth:1 borderColor:[UIColor redColor]];
+    [self.cornerImageView kr_setImageUrl:[NSURL URLWithString:imageUrl]
+                             placeholder:nil
+                                    size:CGSizeMake(60, 60)
+                            cornerRadius:30
+                             borderWidth:1
+                             borderColor:[UIColor redColor]];
 }
 
 @end

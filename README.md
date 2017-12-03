@@ -11,6 +11,38 @@
 
 导入项目中的 CornerImageView 文件夹
 
+导入 #import "UIImageView+KRCornerImageView.h"
+
+```objc
+//使用
+[self.cornerImageView kr_setImageUrl:[NSURL URLWithString:imageUrl]
+                             placeholder:nil
+                                    size:CGSizeMake(60, 60)
+                            cornerRadius:30
+                             borderWidth:1
+                             borderColor:[UIColor redColor]];
+
+/**
+ 切圆角
+ 
+ @param url 图片地址
+ @param placeholder placeholder
+ @param size 大小
+ @param radius 圆角角度
+ @param borderWidth 描边线宽
+ @param borderColor 描边颜色
+ */
+- (void)kr_setImageUrl:(NSURL *)url
+           placeholder:(UIImage *)placeholder
+                  size:(CGSize )size
+          cornerRadius:(CGFloat)radius
+           borderWidth:(CGFloat)borderWidth
+           borderColor:(UIColor *)borderColor;
+```
+
+效果图
+<img src="https://github.com/gurongkang/KRCornerImageView/raw/master/images/example.png" width="320">
+
 
 ## 圆角问题
 
